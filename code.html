@@ -1,0 +1,106 @@
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Buzzard Flock</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/full-width-pics.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/buzzard.png"> The Buzzard Flock</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Code</a>
+              <span class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data Release</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="people.html">People</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header - set the background image for the header in the line below -->
+    <header class="py-5 bg-image-full" style="background-image: url('images/phase_slice_z0_b35.png');">
+    </header>
+
+    <section class="py-5">
+      <div class="container">
+       <h2>ADDGALS: Adding Density Determined Galaxies to Lightcone Simulations</h2>
+       <p>
+         The Buzzard Flock employs a method for creating simulated galaxy catalogs that
+         accurately reproduces galaxy luminosities, colors, and clustering over
+         large cosmic volumes. The technique, called ADDGALS (Adding Density Dependent
+         GAlaxies to Lightcone Simulations), uses an empirical method to embed
+         galaxies within lightcone outputs of cosmological simulations. It can be
+         applied to lower-resolution simulations than are possible with commonly used
+         methods, such as halo occupation distributions, subhalo abundance matching, and
+         semi-analytic models, while still accurately reproducing projected galaxy
+         clustering statistics down to scales of 100 h<sup>-1</sup>kpc.
+        </p>
+            <div class="row">
+               <div class="span4"></div>
+               <div class="span4"><img class="img-responsive-small-centerh" src="images/addgals_l1_sham_ldep_wprp_comparison_allmodels.png" /></div>
+               <div class="span4"></div>
+
+    </div>
+      <div class="container">
+       <h2><a href="https://github.com/beckermr/calclens">
+         CALCLENS: Curved-sky grAvitational Lensing for Cosmological Light conE simulatioNS</a></h2>
+       <p>
+         Weak lensing statistics in our simlations are computed using CALCLENS, an algorithm for efficiently computing
+         weak gravitational lensing shear signals from large N-body light cone simulations over a curved sky.
+         This algorithm properly accounts for the sky curvature and boundary conditions, is able to produce redshift-dependent
+         shear signals including corrections to the Born approximation by using multiple-plane ray tracing,
+         and properly computes the lensed images of source galaxies in the light cone.
+        </p>
+            <div class="row">
+               <div class="span4"></div>
+               <div class="span4"><img class="img-responsive-small-centerh" src="images/buzzard_shearshear_halofit_comparison_fracdev.png" /></div>
+               <div class="span4"></div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white"></p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
